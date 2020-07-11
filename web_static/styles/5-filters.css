@@ -6,7 +6,6 @@
     border-radius: 4px;
     display: flex;
     align-items: center;
-    position: relative;
 }
 
 .filters .locations h3,
@@ -45,7 +44,6 @@
     border: none;
     margin-right: 30px;
     right: 20px;
-    position: absolute;
 }
 
 button:hover {
