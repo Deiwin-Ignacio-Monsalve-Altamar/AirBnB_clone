@@ -3,11 +3,8 @@ footer {
     height: 70px;
     width: 100%;
     bottom: 0;
-    position: fixed;
-    position: relative;
     border-top: 1px solid #CCCCCC;
-}
-
-footer p {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
