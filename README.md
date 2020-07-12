@@ -1,13 +1,33 @@
-# Holberton AirBnB clone project #
+# Holberton AirBnB clone #
 
 <img  width="521"  alt="image"  src="https://user-images.githubusercontent.com/53787841/86299550-29f40c80-bbc6-11ea-9e54-089ffdc7b4cf.png">
 
 
 For further information, click on the previous link.
 
-## Airbnb Clone - Structure
 
-![consdole](https://user-images.githubusercontent.com/60367280/86426731-ff7d7e80-bcad-11ea-9ba2-484a6c9a653b.png)
+## AirBnB clone - Web static
+<img width="521" alt="image" src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/8-index.png">
+## Airbnb Clone - Structure (Console)
+
+### Web static, what?
+- Now that you have a command interpreter for managing your AirBnB objects, it’s time to make them alive!
+- Before developing a big and complex web application, we will build the front end step-by-step.
+
+- The first step is to “design” / “sketch” / “prototype” each element:
+
+- Create simple HTML static pages
+- Style guide
+- Fake contents
+- No Javascript
+- No data loaded from anything
+- During this project, you will learn how to manipulate HTML and CSS languages. HTML is the structure of your page, it should be the first thing to write. CSS is the styling of your page, the design. I really encourage you to fix your HTML part before starting the styling. Indeed, without any structure, you can’t apply any design.
+
+## Environment
+
+-   Visual Studio Code And Live Share
+
+![console](https://user-images.githubusercontent.com/60367280/86426731-ff7d7e80-bcad-11ea-9ba2-484a6c9a653b.png)
 
 ##### In this project, we implement the following: #####
 
@@ -123,5 +143,4 @@ guillaume@ubuntu:~/AirBnB$ ./console.py
 
 ### AUTHORS: ###
 
--   [GitHub - Santiago Agudelo](https://github.com/RedLyon1200)
 -   [GitHub - Deiwin Monsalve](https://github.com/Deiwin-Ignacio-Monsalve-Altamar)

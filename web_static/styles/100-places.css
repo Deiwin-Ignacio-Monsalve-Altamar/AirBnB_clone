@@ -1,18 +1,15 @@
-.container .places .places-name {
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-}
-
-.places .places-name h1 {
-    font-size: 30px;
-    z-index: -1;
-}
-
-.container .places .place-article {
+.container .places {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.container .places h1 {
+    z-index: -1;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    flex: 0 1 100%;
 }
 
 .container .places article {
@@ -20,40 +17,28 @@
     width: 390px;
     padding: 20px;
     margin: 20px;
-    border: 1px #FF5A5F solid;
+    border: #FF5A5F 1px solid;
     border-radius: 4px;
-}
-
-.places h2 {
-    font-size: 30px;
-    text-align: center;
-    margin-top: 2%;
-}
-
-.places .article-details {
-    display: flex;
-    justify-content: space-between;
     position: relative;
 }
 
-.article-details .article-name {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+.container .places h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: auto;
 }
 
 .places .price_by_night {
-    color: #FF5A5F;
     border: #FF5A5F 4px solid;
-    border-radius: 50%;
-    width: 70px;
+    width: 60px;
+    min-width: 60px;
     height: 60px;
     font-size: 30px;
-    right: 0px;
-    min-width: 60px;
+    color: #FF5A5F;
+    border-radius: 50%;
     position: absolute;
-    margin: -10px -15px;
+    top: 10px;
+    right: 10px;
 }
 
 .places .price_by_night h2 {
@@ -61,43 +46,45 @@
 }
 
 .places .information {
-    border: #DDDDDD 1px solid;
-    border-left: none;
-    border-right: none;
     display: flex;
+    border: #DDDDDD 1px solid;
     justify-content: center;
     position: relative;
+    border-left: none;
+    border-right: none;
 }
 
 .places .information div {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: flex-end;
     flex-direction: column;
     height: 75px;
+    width: 35%;
 }
 
 .places .information .max_guest {
-    background: url('../images/icon_group.png') top center;
+    background-image: url(../images/icon_group.png);
     background-repeat: no-repeat;
-    width: 35%;
+    background-position: top center;
 }
 
 .places .information .number_rooms {
-    background: url('../images/icon_bed.png') top center;
+    background-image: url(../images/icon_bed.png);
     background-repeat: no-repeat;
-    width: 35%;
+    background-position: top center;
 }
 
 .places .information .number_bathrooms {
-    background: url(../images/icon_bath.png) top center;
+    background-image: url(../images/icon_bath.png);
     background-repeat: no-repeat;
-    width: 35%;
+    background-position: top center;
 }
 
-.places .description {
+.places .description p,
+.places .user p {
+    text-align: left;
     text-align: justify;
-    margin-top: -2%;
 }
 
 .places .amenities,
@@ -163,6 +150,7 @@
 }
 
 .places .reviews p {
+    text-align: left;
     font-size: 12px;
     margin-top: -3%;
 }
