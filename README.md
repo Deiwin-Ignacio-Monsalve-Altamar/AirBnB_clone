@@ -1,6 +1,6 @@
 # Holberton AirBnB clone #
 
-<img  width="521"  alt="image"  src="https://user-images.githubusercontent.com/53787841/86299550-29f40c80-bbc6-11ea-9e54-089ffdc7b4cf.png">
+<img  width="300"  alt="image"  src="https://user-images.githubusercontent.com/53787841/86299550-29f40c80-bbc6-11ea-9e54-089ffdc7b4cf.png">
 
 
 For further information, click on the previous link.
@@ -8,7 +8,6 @@ For further information, click on the previous link.
 
 ## AirBnB clone - Web static
 <img width="521" alt="image" src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/268/8-index.png">
-## Airbnb Clone - Structure (Console)
 
 ### Web static, what?
 - Now that you have a command interpreter for managing your AirBnB objects, it’s time to make them alive!
@@ -23,10 +22,14 @@ For further information, click on the previous link.
 - No data loaded from anything
 - During this project, you will learn how to manipulate HTML and CSS languages. HTML is the structure of your page, it should be the first thing to write. CSS is the styling of your page, the design. I really encourage you to fix your HTML part before starting the styling. Indeed, without any structure, you can’t apply any design.
 
-## Environment
+### Environment
 
 -   Visual Studio Code And Live Share
 
+
+## AirBnB clone - Console
+
+### Airbnb Clone - Structure (Console)
 ![console](https://user-images.githubusercontent.com/60367280/86426731-ff7d7e80-bcad-11ea-9ba2-484a6c9a653b.png)
 
 ##### In this project, we implement the following: #####
